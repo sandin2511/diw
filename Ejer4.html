@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Adrián Román Matellanes">
+    <meta name="Date" content="23/10/2017">
+    <title>Ejer3</title>
+</head>
+
+
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Unete</legend>
+            <div>Nuestros socios tienen muchas ventajas. ¡Y es Gratis!</div>
+            <UL>
+                <li><label>Nombre y apellidos:</label> <input type="text" name="nombre" size="30" />
+                </li>
+                <li><label>Edad:</label> <input list="edades">
+                    <datalist id="edades">
+   <option value="Menor de 20"></option>
+  <option value="Entre 20 y 40"></option>
+  <option value="Entre 40 y 60"></option>
+  <option value="Entre 60 y 80"></option>
+    <option value="Mayor de 80"></option>
+</datalist>
+
+                </li>
+
+                <li> <label>Comentario:</label> <textarea name="texto" rows="3" cols="30">Escribe aqui tu comentario
+            </textarea></li>
+            </UL>
+
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
