@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Adrián Román Matellanes">
+    <meta name="Date" content="23/10/2017">
+    <title>Ejer5</title>
+</head>
+
+
+<body>
+    <form method="get">
+        <fieldset>
+            <h1>Formulario de solicitud de zapatos</h1>
+            <fieldset>
+
+                <legend>Informacion personal</legend>
+
+                <UL>
+                    <li>Nombre : <input type="text" name="nombre" size="30" /></li>
+                    <li>Email: <input type="email" name="nombre" size="30" /></li>
+                    <li>Telefono: <input type="number" name="nombre" size="30" /></li>
+                    <li> <label>Comentario: </label><textarea name="texto" size="300" placeholder="No mas de 300 comentarios"></textarea></li>
+                </UL>
+                <button type="submit">Enviar</button>
+            </fieldset>
+            <h2>Diseña tus zapatos</h2>
+
+            <fieldset>
+                <legend>Diseño personalizado </legend>
+                <legend>Color(elige uno)</legend>
+                <ul>
+                    <li> <label><input type="radio" name="radio" value="1" />Rojo<br /></label></li>
+                    <li> <label><input type="radio" name="radio" value="2" />Azul<br /></label></li>
+                    <li> <label><input type="radio" name="radio" value="3" />Negro<br /></label></li>
+                    <li> <label><input type="radio" name="radio" value="4" />Plata<br /></label></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Caracteristicas(Elige las que quieras)</legend>
+                <ul>
+                    <li> <label><input type="checkbox" name="cordones" value="1" />Con Cordones<br /></label></li>
+                    <li> <label><input type="checkbox" name="logo" value="2" checked="checked"/>Logo metalico<br /></label></li>
+                    <li> <label><input type="checkbox" name="ligeras" value="3" />Ligeras<br /></label></li>
+                    <li> <label><input type="checkbox" name="musica" value="4" />Con musica<br /></label></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Caracteristicas(Elige las que quieras)</legend>
+                <li><label>Tamaño de los zapatos:</label><select name="menu">
+
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+
+
+    <option value="4">4</option>
+    <option value="5">5</option>
+
+</select></li>
+            </fieldset>
+            <button type="submit">Solicitar</button>
+            <button type="submit">Restablecer</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
