@@ -2,28 +2,38 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="Author" content="Adrián Román Matellanes">
+    <meta name="Date" content="23/10/2017">
+    <title>Ejer2</title>
 </head>
 
 
 <body>
-<fieldset>
- <legend>Unete</legend>
- <label>Nuestros socios tienen muchas ventajas. ¡Y es Gratis!</label>
-  <p>Nombre y apellidos: <input type="text" name="nombre" size="30" /></p>
-  <p>Email: <textarea name="texto" rows="2" cols="20" placeholder="Escribe aqui tu comentario"></textarea></p>
-</fieldset>
-<fieldset>
- <legend>Campos de entrada de texto especiales</legend>
-  <p>Contraseña<input type="text" name="nombre" size="30" /></p>
-    <p>Buscar[HTML5]<input type="text" name="nombre" size="30" /></p>
-      <p>Email[HTML5]<input type="text" name="nombre" size="30" /></p>
-        <p>Telefono[HTML5]<input type="text" name="nombre" size="30" /></p>
-          <p>URL[HTML5]<input type="text" name="nombre" size="30" /></p>
+    <form method="get">
+        <fieldset>
+            <legend>Unete</legend>
 
-</fieldset>
-<button type="submit">Enviar</button>
+            <div>Nuestros socios tienen muchas ventajas. ¡Y es Gratis!</div>
+            <ul>
+                <li> <label>Nombre y apellidos: </label><input type="text" name="nombre" size="30" autofocus required="required" /></li>
+                <li> <label>Comentario: </label><textarea name="texto" rows="2" cols="20" placeholder="Escribe aqui tu comentario" required="required">
+
+            </textarea></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+
+            <legend>Campos de entrada de texto especiales</legend>
+            <ul>
+                <li><label> Contraseña</label><input type="password" name="nombre" size="30" /></li>
+                <li> <label>Buscar[HTML5]</label><input type="search" name="nombre" size="30" /></li>
+                <li><label> Email[HTML5]</label><input type="email" name="nombre" size="30" /></li>
+                <li><label> Telefono[HTML5]</label><input type="number" name="nombre" size="30" /></li>
+                <li><label> URL[HTML5]</label><input type="url" name="nombre" size="30" /></li>
+            </ul>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 
 </html>
